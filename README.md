@@ -151,25 +151,26 @@ PR-AUC and F1 did not decrease under the scaffold split in this particular analy
 
 ## Key Figures / Tables
 
-The repository includes figures and tables summarizing model performance. Key outputs include:
+The repository includes figures and tables summarizing dataset composition, model performance, and the generalization gap between random and scaffold-based evaluation. Key outputs include:
 
+- BACE activity class distribution bar chart
+- Sample molecule grid from the dataset
 - ROC curves comparing Logistic Regression and Random Forest on the random split
-- PR curves for both models
-- Confusion matrices
+- ROC curves comparing Logistic Regression and Random Forest on the scaffold split
+- Random Forest confusion matrix on the scaffold split
 - ROC-AUC bar chart comparing random vs scaffold split
-- Final model comparison table
+- Final model comparison table in the notebook and README
 
 ### Figure links
-- [ROC curve figure](figures/roc_curves_random_vs_scaffold.png)
-- [PR curve figure](figures/pr_curves_random_vs_scaffold.png)
-- [Random split comparison chart](figures/model_comparison_random_split.png)
-- [Scaffold split comparison chart](figures/model_comparison_scaffold_split.png)
-- [Confusion matrix examples](figures/)
+- [BACE class distribution](figures/bace_class_distribution.png)
+- [Sample molecule grid](figures/sample_molecule_grid.png)
+- [ROC curves on random split](figures/roc_curves_random_split.png)
+- [ROC curves on scaffold split](figures/roc_curves_scaffold_split.png)
+- [ROC-AUC comparison: random vs scaffold split](figures/roc_auc_random_vs_scaffold_split.png)
+- [Random Forest confusion matrix (scaffold split)](figures/rf_confusion_matrix_scaffold_split.png)
 
 ### Results notebook
-- [Main analysis notebook](notebooks/bace1_project.ipynb)
-
-If your filenames differ, update the links above to match your actual repository structure.
+- [Main analysis notebook](Predicting_BACE_1_Inhibitor_Activity.ipynb)
 
 ---
 
